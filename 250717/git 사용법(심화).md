@@ -1,3 +1,5 @@
+![git](/250717/git%20심화.png)
+
 commit 메시지 수정하기
 
 명령어 : git commit --amend
