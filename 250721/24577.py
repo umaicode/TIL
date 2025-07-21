@@ -1,0 +1,6 @@
+print("#" * 3, end=" ")
+print("#" * 3)
+print("#7#", end=" ")
+print("#3#")
+print("#" * 3, end=" ")
+print("#" * 3)
