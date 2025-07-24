@@ -71,3 +71,6 @@ while 조건식 :
     code ...
     증감식
 """
+
+# break : 반복문 탈출
+# continue : 반복문 처음으로 돌아가기
