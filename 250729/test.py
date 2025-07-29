@@ -5,6 +5,5 @@
 # 요청 방식
 # get, post
 
-my_dict = {
-    "banana": 3,
-}
+# get과 setdefault의 차이
+# setdefault는 k의 key가 없으면 추가해준다.
