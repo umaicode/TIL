@@ -3,6 +3,7 @@ from itertools import permutations
 times = list(map(int, input().split()))
 
 times = list(permutations(times))
+
 result = []
 
 for time in times:
