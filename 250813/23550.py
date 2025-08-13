@@ -28,3 +28,14 @@ def print_number(n, a):
 
 
 print_number(5, 0)
+
+
+def pnum(n):
+    if n < 0:
+        return
+    print(5 - n)
+    pnum(5 - n)
+    print(5 - n)
+
+
+pnum(5)
