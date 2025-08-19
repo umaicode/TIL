@@ -1,3 +1,5 @@
+# 24588 : 도전 4 (문자열 파싱)
+
 char = "Hello World"
 print(char[0] + " " + char[10])
 for i in range(len(char)):
