@@ -35,3 +35,37 @@ for tc in range(1, T + 1):
         cnt += 1
 
     print(f"#{tc} {cnt}")
+
+
+"""
+내 풀이
+def portal(N, lst):
+    cnt = 0
+
+    for i in range(N):
+        if i == N - 1:
+            break
+        if lst[i] == 0:
+            cnt += 1
+            continue
+        else:
+            start = lst[i] - 1
+            cnt += 1
+            for _ in range(start, i + 1):
+                cnt += 1
+
+    return cnt
+
+
+t = int(input())
+
+for tc in range(1, t + 1):
+    N = int(input())
+    lst = list(map(int, input().split()))
+
+    result = portal(N, lst)
+
+    print(f"#{tc} {result}")
+
+
+"""
