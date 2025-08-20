@@ -4,10 +4,10 @@ path = []
 # 중복 순열
 def KFC(level):
     if level == 2:
-        print(path)
+        print(path)     # 정점 레벨에 도달했을 때
         return
 
-    for i in range(3):
+    for i in range(3):  # 0, 1, 2 branch : 3
         path.append(i)
         KFC(level + 1)
         path.pop()
