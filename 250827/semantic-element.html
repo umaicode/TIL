@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap-5.3.8-dist/css/bootstrap.css">
+
+</head>
+
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    position: relative;
+    top: 30px;
+    /* margin: 0px auto; */
+  }
+
+  header {
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: beige;
+  }
+
+  nav {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: azure;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+  }
+
+  main {
+    height: 800px;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    border: 1px solid lightgray;
+  }
+
+  article {
+    width: 60%;
+    border: 1px solid lightgrey;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  aside {
+    width: 35%;
+    border: 1px solid lightgrey;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  aside a {
+    text-decoration: none;
+  }
+
+  footer {
+    position: sticky;
+    bottom: 30px;
+    background-color: rgb(50, 53, 54);
+    color: white;
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  /* body {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 1px solid black;
+  }
+
+  main {
+    display: flex;
+    flex: 1;
+    align-items: stretch;
+    height: 250px;
+  }
+
+  box {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+  }
+
+  article {
+    border: 1px solid black;
+    flex: 2;
+    margin-right: 10px;
+    height: 100%;
+  }
+
+  aside {
+    border: 1px solid black;
+    flex: 1;
+    height: 100%;
+  } */
+</style>
+
+<body>
+  <!-- <box> -->
+  <header style="text-align: center;">
+    <h1>Header</h1>
+  </header>
+  <!-- </box> -->
+
+
+  <!-- <box> -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- </box> -->
+
+  <!-- <box> -->
+  <main>
+    <article>
+      <h2>Article Title</h2>
+      <p>Article content goes here...</p>
+    </article>
+    <aside>
+      <h3>Aside</h3>
+      <ol>
+        <li><a href="#">Lorem, ipsum.</a></li>
+        <li><a href="#">Lorem, ipsum.</a></li>
+        <li><a href="#">Lorem, ipsum.</a></li>
+      </ol>
+    </aside>
+  </main>
+  <!-- </box> -->
+
+  <!-- <box> -->
+  <footer style="text-align: center;">
+    <p>&copy; All rights reserved.</p>
+  </footer>
+  <!-- </box> -->
+
+  <script src="./bootstrap-5.3.8-dist/js/bootstrap.js"></script>
+
+</body>
+
+</html>
