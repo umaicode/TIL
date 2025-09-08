@@ -1,3 +1,4 @@
+# bfs final
 from collections import deque
 
 
@@ -21,11 +22,13 @@ def bfs(start, end):
 
 results = []
 name = "ABCDE"
-adj = [[0, 1, 0, 0, 1],
-       [0, 0, 0, 1, 1],
-       [1, 0, 0, 0, 0],
-       [1, 0, 1, 0, 0],
-       [0, 0, 0, 0, 0]]
+adj = [
+    [0, 1, 0, 0, 1],
+    [0, 0, 0, 1, 1],
+    [1, 0, 0, 0, 0],
+    [1, 0, 1, 0, 0],
+    [0, 0, 0, 0, 0],
+]
 
 visited = [False] * 5
 
