@@ -4,6 +4,7 @@ visited = [[0] * 5 for _ in range(5)]
 
 directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
+
 def flood_fill(y, x):
     queue = deque()
     queue.append((y, x))
@@ -23,6 +24,7 @@ def flood_fill(y, x):
                 queue.append((ny, nx))
 
     return visited
+
 
 y, x = map(int, input().split())
 
