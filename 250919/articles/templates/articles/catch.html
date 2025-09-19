@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Catch</h1>
+
+{% comment %} 1. throw.html에서 name="throw" 넘겨주고
+2. views에서 catch가 request로 받고
+3. text 변수에 저장하고 딕셔너리 'text' key 값 {% endcomment %}
+
+<h3>{{ text }}를 받았다.</h3>
+{% endblock content %}
