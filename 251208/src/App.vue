@@ -7,6 +7,7 @@
   <TodoList />
   <!-- 할 일 생성 -->
   <TodoForm />
+  
 </template>
 
 <script setup>
@@ -17,6 +18,7 @@
   import TodoList from '@/components/TodoList.vue';
 
   const store = useCounterStore
+
 </script>
 
 <style scoped>
